@@ -17,7 +17,6 @@ cp /opt/data/manifest.json /opt/google/chrome/pepper/ -f
 cp /opt/data/pepper-flash.info /opt/google/chrome/pepper/ -f
 
 #Synaptics Touchpad
-sudo su
 mount -o remount, rw /
 cp /etc/X11/xorg.conf.d/40-touchpad-cmt.conf /etc/X11/xorg.conf.d/40-touchpad-cmt.conf.bak
 rm /etc/X11/xorg.conf.d/40-touchpad-cmt.conf
